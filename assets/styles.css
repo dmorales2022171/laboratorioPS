@@ -12,8 +12,9 @@
 body{
     margin: auto;
     text-align: center;
-    margin: 15%;
+    margin: 13%;
     font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg, rgba(58,152,180,1) 20%, rgba(253,29,29,1) 53%, rgba(253,182,29,1) 82%);
 }
 
 img{
@@ -24,5 +25,13 @@ img{
 
 button:hover{
     color: aqua;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(21, 112, 197);
 }
 
