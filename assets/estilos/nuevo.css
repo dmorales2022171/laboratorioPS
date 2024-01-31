@@ -1,0 +1,66 @@
+body {
+    background: radial-gradient(circle, rgba(63, 120, 251, 1) 0%, rgba(70, 252, 207, 1) 100%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    text-align: left;
+    padding: 1%;
+    background-color: black;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 1%;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+form {
+    text-align: center;
+    gap: 10px;
+    margin: auto;
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 95%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
