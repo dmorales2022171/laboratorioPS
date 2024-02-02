@@ -27,6 +27,7 @@ body {
     border-radius: 15px;
     padding: 20px;
     margin-top: 20px;
+    border: #000000 solid 3px;
 }
 
 .contenidoContacto {
@@ -64,6 +65,20 @@ nav {
 .icono{
     display: flex;
     align-items: flex-end;
-    text-align: right;
-    justify-content: flex-end;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
 }
+
+.perfil{
+    border-radius: 50%;
+}
+
+p{
+    font-size: 16px;
+    color: black;
+}
+
