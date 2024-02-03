@@ -1,0 +1,111 @@
+body {
+    background: radial-gradient(circle, rgba(63,120,251,1) 0%, rgba(70,252,207,1) 100%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+} 
+
+nav {
+    text-align: left;
+    padding: 1%;
+    background-color: #000000;
+}
+
+.h1{
+    background-color: #000000;
+    color: white;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+section{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    background-color: rgb(253, 255, 255);
+    text-align: center;
+    height: 100%;
+    width: 30%;
+    color: black;
+    border-radius: 15px;
+    padding: 1%;
+}
+
+ul{
+    text-align: left ;
+    display:inline;
+    text-align: center;
+    gap: 10px;
+    padding: 5%;
+}
+
+
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 95%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    gap: 10px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.contenido{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.eliminar {
+    background-color: red;
+    display: inline-flex;
+    gap: 10px;
+    padding: 1%;
+    text-align: center;
+}
+
+.eliminar:hover{
+    background-color: rgb(194, 6, 6);
+}
+
+.editar {
+    background-color: rgb(255, 145, 0);
+    display: inline-flex;
+    gap: 10px;
+    padding:1%;
+}
+
+
+.editar:hover{
+    background-color: rgb(214, 125, 8);;
+}
+li button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+
+option{
+    font-size: 15px;
+}

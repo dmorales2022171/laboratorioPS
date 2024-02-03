@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Pendientes</title>
+    <link rel="stylesheet" href="../estilos/list.css">
+</head>
+
+<body>
+    <nav>
+        <a href="../paginas/contacto.html"><img src="../resource/img/kinal.webp" width="10%" height="50%"></a>
+    </nav><br>
+
+    <h1 class="h1">
+        Tareas Pendientes
+    </h1>
+    <br><br>
+    <div class="contenido">
+        <section><br>
+            <input type="text" id="tarea" placeholder="Nueva tarea"><br><br>
+            <label for="prioridad">Prioridad:</label>
+            <select id="prioridad">
+                <option value="alta">Prioridad Alta</option>
+                <option value="media">Prioridad Media</option>
+                <option value="baja">Prioridad Baja</option>
+            </select><br><br>
+            <button id="guardar">Agregar</button><br>
+            <ul id="listado">
+            </ul>
+        </section>
+    </div>
+    <script src="../script/logica.js"></script>
+</body>
+
+</html>

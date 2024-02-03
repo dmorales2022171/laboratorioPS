@@ -1,0 +1,59 @@
+.cuerpoLogin{
+    background-color: black;
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    padding: 1%;
+    margin: auto;
+    color: white;
+    border-radius: 15%;
+}
+
+body{
+    margin: auto;
+    text-align: center;
+    margin: 13%;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(90deg, rgba(58,152,180,1) 20%, rgba(253,29,29,1) 53%, rgba(253,182,29,1) 82%);
+}
+
+img{
+    text-align: center;
+    height: 100%;
+    width: 20%;
+
+}
+
+a{
+    border-radius: 25px;
+    background-color: white;
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover{
+    background-color: rgb(81, 133, 245);
+    color: white;
+
+
+}
+
+input{
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+/*
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(21, 112, 197);
+}
+
